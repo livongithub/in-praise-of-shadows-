@@ -1,0 +1,586 @@
+/* font-family: 'DM Serif Display', serif;
+font-family: 'Poppins', sans-serif; */
+
+body{
+    background: #80785C;
+    overflow: hidden;
+    filter: blur(40%);
+    background-image: url("img/background.jpeg");
+    overflow: hidden;
+}
+
+.fullBody {
+    position: absolute;
+    width: 110%;
+    height: 110%;
+    background-color: #80785C;
+    opacity: 75%;
+    margin-left: -10px;
+}
+
+.verticalLines {
+    display: flex; 
+    flex-direction: row;
+    gap: 20rem;
+    justify-content: space-between;
+    position: relative;
+}
+
+        .rectangleVertical1{
+            width: 70px;
+            height: 110vh; 
+            background-color: black;
+            margin-top: -25px;
+            filter: blur(7px);
+            opacity: 75%;
+            /* position: absolute; */
+        }
+
+        .rectangleVertical2{
+            width: 70px;
+            height: 110vh; 
+            margin-top: -25px;
+            background-color: black;
+            filter: blur(7px);
+            opacity: 75%;
+            /* position: absolute; */
+        }
+
+        .rectangleVertical3{
+            width: 70px;
+            height: 110vh; 
+            margin-top: -25px;
+            background-color: black;
+            filter: blur(7px);
+            opacity: 75%;
+            /* position: absolute; */
+        }
+
+        .rectangleVertical4{
+            width: 70px;
+            height: 110vh; 
+            margin-top: -25px;
+            background-color: black;
+            filter: blur(7px);
+            opacity: 75%;
+        }
+
+
+
+.horizontalLines {
+    display: flex; 
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-direction: column;
+    gap: 15rem;
+    position: absolute;
+}
+
+        .rectangleHorizontal1{
+            height: 70px;
+            width: 110vw; 
+            background-color: black;
+            margin-left: -25px;
+            margin: -10px;
+            filter: blur(7px);
+            opacity: 75%;
+        }
+
+        .rectangleHorizontal2{
+            height: 70px;
+            width: 110vw; 
+            background-color: black;
+            margin-left: -25px;
+            margin: -10px;
+            filter: blur(7px);
+            opacity: 75%;
+        }
+
+        .rectangleHorizontal3{
+            height: 70px;
+            width: 110vw; 
+            background-color: black;
+            margin-left: -25px;
+            margin: -10px;
+            filter: blur(7px);
+            opacity: 75%;
+        }
+
+        .rectangleHorizontal4{
+            height: 70px;
+            width: 110vw; 
+            background-color: black;
+            margin-left: -25px;
+            margin: -10px;
+            filter: blur(7px);
+            opacity: 75%;
+        }
+
+
+
+h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 35px;
+    filter: blur(1px);
+    position: absolute;
+    margin-top: -650px;
+    margin-left: 83px;
+    line-height: 39px;
+    letter-spacing: 0.2em;
+    opacity: 97%;
+}
+
+h4 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 22px;
+    line-height: 39px;
+    text-align: right;
+    letter-spacing: 0.39em;
+    color: rgba(0, 0, 0, 0.97);
+    filter: blur(1px);
+    margin-top: -150px;
+    margin-left: 87vw;
+}
+
+
+
+
+@media screen and (max-width:429px){
+
+
+        body{
+            width: 428px;
+            background: #80785C;
+            /* overflow: hidden; */
+            filter: blur(40%);
+            /* background-image: url("img/background.jpeg"); */
+            overflow: hidden;
+        }
+
+        .fullBody {
+            position: absolute;
+            width: 110vw;
+            height: 110vh;
+            background-color: #80785C;
+            opacity: 75%;
+            margin-left: -10px;
+        }
+
+        .verticalLines {
+            max-width: 428px;
+            display: flex; 
+            flex-direction: row;
+            gap: 4rem;
+            justify-content: space-between;
+            position: relative;
+        }
+
+                .rectangleVertical1{
+                    max-width: 60px;
+                    height: 110vh; 
+                    background-color: black;
+                    margin-top: -25px;
+                    filter: blur(7px);
+                    opacity: 75%;
+                    /* position: absolute; */
+                }
+
+                .rectangleVertical2{
+                    width: 60px;
+                    height: 110vh; 
+                    background-color: black;
+                    margin-top: -25px;
+                    filter: blur(7px);
+                    opacity: 75%;
+                    /* position: absolute; */
+                }
+
+                .rectangleVertical3{
+                display: none;
+                }
+
+                .rectangleVertical4{
+                    display: none;
+                }
+
+
+
+        .horizontalLines {
+            display: flex; 
+            flex-grow: 0;
+            flex-shrink: 0;
+            flex-direction: column;
+            gap: 10rem;
+            position: absolute;
+        }
+
+                .rectangleHorizontal1{
+                    height: 40px;
+                    width: 110vw; 
+                    background-color: black;
+                    margin-left: -25px;
+                    margin: -10px;
+                    filter: blur(7px);
+                    opacity: 75%;
+                }
+
+                .rectangleHorizontal2{
+                    height: 40px;
+                    width: 110vw; 
+                    background-color: black;
+                    margin-left: -25px;
+                    margin: -10px;
+                    filter: blur(7px);
+                    opacity: 75%;
+                }
+
+                .rectangleHorizontal3{
+                    height: 40px;
+                    width: 110vw; 
+                    background-color: black;
+                    margin-left: -25px;
+                    margin: -10px;
+                    filter: blur(7px);
+                    opacity: 75%;
+                }
+
+                .rectangleHorizontal4{
+                    height: 40px;
+                    width: 110vw; 
+                    background-color: black;
+                    margin-left: -25px;
+                    margin: -10px;
+                    filter: blur(7px);
+                    opacity: 75%;
+                }
+
+
+
+        h2 {
+            font-family: 'DM Serif Display', serif;
+            font-size: 35px;
+            filter: blur(1px);
+            /* position: absolute; */
+            /* margin-top: -650px;
+            margin-left: 83px; */
+            line-height: 39px;
+            letter-spacing: 0.2em;
+            opacity: 97%;
+            text-align: center;
+            display: block;
+            margin-top: -30px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        h4 {
+            position: relative;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            text
+        }
+
+    
+}
+
+
+@media screen and (min-width:428px) { 
+
+    body{
+        background: #80785C;
+        /* overflow: hidden; */
+        filter: blur(40%);
+        background-image: url("img/background.jpeg");
+        overflow: hidden;
+    }
+
+    .fullBody {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #80785C;
+        opacity: 75%;
+        margin-left: -10px;
+    }
+    .rectangleVertical1{
+                min-width: 70px;
+                height: 110vh; 
+                background-color: black;
+                margin-top: -25px;
+                filter: blur(7px);
+                opacity: 75%;
+                /* position: absolute; */
+            }
+
+            .rectangleVertical2{
+                min-width: 70px;
+                height: 110vh; 
+                margin-top: -25px;
+                background-color: black;
+                filter: blur(7px);
+                opacity: 75%;
+                /* position: absolute; */
+            }
+
+            .rectangleVertical3{
+                min-width: 70px;
+                height: 110vh; 
+                margin-top: -25px;
+                background-color: black;
+                filter: blur(7px);
+                opacity: 75%;
+                /* position: absolute; */
+            }
+
+            .rectangleVertical4{
+                min-width: 70px;
+                height: 110vh; 
+                margin-top: -25px;
+                background-color: black;
+                filter: blur(7px);
+                opacity: 75%;
+            }
+
+
+
+    .horizontalLines {
+        display: flex; 
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-direction: column;
+        gap: 15rem;
+        position: absolute;
+    }
+
+            .rectangleHorizontal1{
+                height: 70px;
+                min-width: 110vw; 
+                background-color: black;
+                margin-left: -25px;
+                margin: -10px;
+                filter: blur(7px);
+                opacity: 75%;
+            }
+
+            .rectangleHorizontal2{
+                height: 70px;
+                min-width: 110vw; 
+                background-color: black;
+                margin-left: -25px;
+                margin: -10px;
+                filter: blur(7px);
+                opacity: 75%;
+            }
+
+            .rectangleHorizontal3{
+                height: 70px;
+                min-width: 110vw; 
+                background-color: black;
+                margin-left: -25px;
+                margin: -10px;
+                filter: blur(7px);
+                opacity: 75%;
+            }
+
+            .rectangleHorizontal4{
+                height: 70px;
+                min-width: 110vw; 
+                background-color: black;
+                margin-left: -25px;
+                margin: -10px;
+                filter: blur(7px);
+                opacity: 75%;
+            }
+
+
+
+    h2 {
+        font-family: 'DM Serif Display', serif;
+        font-size: 35px;
+        filter: blur(1px);
+        position: absolute;
+        margin-top: -650px;
+        margin-left: 83px;
+        line-height: 39px;
+        letter-spacing: 0.2em;
+        opacity: 97%;
+    }
+
+    h4 {
+        position: absolute;
+        font-family: 'Poppins', sans-serif; 
+        font-size: 22px;
+        line-height: 39px;
+        text-align: right;
+        letter-spacing: 0.39em;
+        color: rgba(0, 0, 0, 0.97);
+        filter: blur(1px);
+        margin-top: -130px;
+        margin-left: 80vw;
+    }
+
+    .verticalLines {
+        display: flex; 
+        flex-direction: row;
+        gap: 20rem;
+        justify-content: space-between;
+        position: relative;
+    }
+  
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        background: #80785C;
+        overflow: hidden;
+        filter: blur(40%);
+        background-image: url("img/background.jpeg");
+        overflow: hidden;
+    }
+    
+    .fullBody {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #80785C;
+        opacity: 75%;
+        margin-left: -10px;
+    }
+    
+    .verticalLines {
+        display: flex; 
+        flex-direction: row;
+        gap: 20rem;
+        justify-content: space-between;
+        position: relative;
+    }
+    
+            .rectangleVertical1{
+                width: 70px;
+                height: 110vh; 
+                background-color: black;
+                margin-top: -25px;
+                filter: blur(7px);
+                opacity: 75%;
+                /* position: absolute; */
+            }
+    
+            .rectangleVertical2{
+                width: 70px;
+                height: 110vh; 
+                margin-top: -25px;
+                background-color: black;
+                filter: blur(7px);
+                opacity: 75%;
+                /* position: absolute; */
+            }
+    
+            .rectangleVertical3{
+                width: 70px;
+                height: 110vh; 
+                margin-top: -25px;
+                background-color: black;
+                filter: blur(7px);
+                opacity: 75%;
+                /* position: absolute; */
+            }
+    
+            .rectangleVertical4{
+            display: none;
+            }
+    
+    
+    
+    .horizontalLines {
+        display: flex; 
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-direction: column;
+        gap: 15rem;
+        position: absolute;
+    }
+    
+            .rectangleHorizontal1{
+                height: 70px;
+                width: 110vw; 
+                background-color: black;
+                margin-left: -25px;
+                margin: -10px;
+                filter: blur(7px);
+                opacity: 75%;
+            }
+    
+            .rectangleHorizontal2{
+                height: 70px;
+                width: 110vw; 
+                background-color: black;
+                margin-left: -25px;
+                margin: -10px;
+                filter: blur(7px);
+                opacity: 75%;
+            }
+    
+            .rectangleHorizontal3{
+                height: 70px;
+                width: 110vw; 
+                background-color: black;
+                margin-left: -25px;
+                margin: -10px;
+                filter: blur(7px);
+                opacity: 75%;
+            }
+    
+            .rectangleHorizontal4{
+                height: 70px;
+                width: 110vw; 
+                background-color: black;
+                margin-left: -25px;
+                margin: -10px;
+                filter: blur(7px);
+                opacity: 75%;
+            }
+    
+    
+    
+    h2 {
+        font-family: 'DM Serif Display', serif;
+        font-size: 35px;
+        filter: blur(1px);
+        position: absolute;
+        margin-top: -710px;
+        margin-left: 83px;
+        line-height: 39px;
+        letter-spacing: 0.2em;
+        opacity: 97%;
+    }
+    
+    h4 {
+        position: absolute;
+        font-family: 'Poppins', sans-serif; 
+        font-size: 22px;
+        line-height: 39px;
+        text-align: right;
+        letter-spacing: 0.39em;
+        color: rgba(0, 0, 0, 0.97);
+        filter: blur(1px);
+        margin-top: -150px;
+        margin-left: 87vw;
+    }
+    
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .rectangleVertical4{
+        display: none;
+    }
+
+    h4 {
+        position: absolute;
+       margin-left: 80vw;
+    }
+    
+
+}

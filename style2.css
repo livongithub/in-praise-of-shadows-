@@ -1,0 +1,141 @@
+/* font-family: 'DM Serif Display', serif;
+font-family: 'Poppins', sans-serif; */
+
+body{
+    background: #80785C;
+    filter: blur(40%);
+    background-image: url("img/background.jpeg");
+    /* overflow: hidden; */
+} 
+
+.fullBody {
+    position: absolute;
+    width: 110%;
+    height: 140%;
+    background-color: #80785C;
+    opacity: 75%;
+    margin-left: -10px;
+    margin-top: -25px;
+    z-index: -4;
+}
+
+h1 {
+    /* styling */
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 30px;
+
+    /* positioning */
+    max-width: 600px;
+    margin: auto;
+    /* margin-right: auto ; */
+    padding: 10%;
+    z-index: 2;
+}
+
+.cursor {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    opacity: 90%;
+    filter: blur(7px);
+    border-radius: 50%;
+}
+
+.next {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: black;
+    filter: blur(10px);
+    margin-left: auto;
+    margin-right: auto;
+   opacity: 60%;
+
+}
+
+/* .animationClick {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    filter: blur(20px);
+    background-color: black;
+    /* transition: opacity 2s;
+    transition: border-radius 2s;
+    transition: width 2s;
+    transition: height 2s; */
+    /* opacity: 75;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: spread;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+} */
+
+/* @keyframes spread {
+    0% {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    }
+    100% {
+        width: 100vw;
+        height: 100vh;
+        border-radius: 1%;
+    }
+} */ 
+/* #canvas1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+} */
+
+
+
+@media screen and (max-width: 550px){
+    .fullBody {
+        position: absolute;
+        width: 110%;
+        height: 150%;
+        background-color: #80785C;
+        opacity: 75%;
+        margin-left: -10px;
+        margin-top: -25px;
+        z-index: -4;
+    }
+
+    .cursor {
+        position: absolute;
+        height: 150px;
+        width: 150px;
+        background-color: black;
+        opacity: 90%;
+        filter: blur(7px);
+        border-radius: 50%;
+    }
+
+    h1 {
+        /* styling */
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        text-align: left;
+        font-weight: 300;
+        font-size: 19px;
+        line-height: 30px;
+    
+        /* positioning */
+        max-width: 532px;
+        margin: auto;
+        /* margin-right: auto ; */
+        padding: 10%;
+        z-index: 2;
+    }
+}

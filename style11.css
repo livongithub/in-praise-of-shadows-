@@ -1,0 +1,653 @@
+body {
+    background-color: #302d21 ;
+    animation-name: back;
+    animation-duration: 55s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes back {
+    0% {
+        background-color: #80785C;
+    }
+    100% {
+        background-color: #3f3b2c 
+    }
+}
+
+.text{
+    postion: relative;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 30px;
+
+    /* positioning */
+    max-width: 550px;
+    margin: auto;
+    padding: 10%;
+    z-index: 2;
+}
+
+div.CC>* {
+    background-color: black;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    opacity: 0%;
+    filter: blur(10px);
+    border-radius: 50%;
+    animation-name: one;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+        .CC :nth-child(1){
+            margin-left: 5vw;
+            margin-top: -40vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: none;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(2){
+            margin-left: 75vw;
+            margin-top: -15vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: none;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(3){
+            margin-left: 15vw;
+            margin-top: -85vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 1s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(4){
+            margin-left: 95vw;
+            margin-top: -95vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 1.5s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(5){
+            margin-left: 70vw;
+            margin-top: -45vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 2s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(6){
+            margin-left: 5vw;
+            margin-top: -95vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 2.5s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(7){
+            margin-left: 60vw;
+            margin-top: -95vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 2.5s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(8){
+            margin-left: 55vw;
+            margin-top: -20vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 3s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(9){
+            margin-left: 80vw;
+            margin-top: -80vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 3s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(10){
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 3.5s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(11){
+            margin-left: 30vw;
+            margin-top: -30vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 45s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(12){
+            margin-left: 90vw;
+            margin-top: -50vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 5s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(13){
+            margin-left: 70vw;
+            margin-top: -98vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 5.5s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(14){
+            margin-left: 40vw;
+            margin-top: -100vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 6s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(15){
+            margin-left: -5vw;
+            margin-top: -65vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 6s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(16){
+            margin-left: 55vw;
+            margin-top: -65vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 7s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(17){
+            margin-left: 30vw;
+            margin-top: -105vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 8s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(18){
+            margin-left: -10vw;
+            margin-top: -105vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 8.5s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(19){
+            margin-left: 30vw;
+            margin-top: -45vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 9s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(20){
+            margin-left: 20vw;
+            margin-top: -45vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 9s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(21){
+            margin-left: 105vw;
+            margin-top: -75vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 10s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(22){
+            margin-left: 45vw;
+            margin-top: -35vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 10.5s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(23){
+            margin-left: 15vw;
+            margin-top: -75vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 10.5s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(24){
+            margin-left: 25vw;
+            margin-top: -75vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 11s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(25){
+            margin-left: 85vw;
+            margin-top: -95vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 11.5s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(26){
+            margin-left: 65vw;
+            margin-top: -75vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 12s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(27){
+            margin-left: 55vw;
+            margin-top: -20vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 13s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(28){
+            margin-left: 95vw;
+            margin-top: -15vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 14s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(29){
+            margin-left: 70vw;
+            margin-top: -98vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 14.5s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(30){
+            margin-left: 50vw;
+            margin-top: -50vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 14.5s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(31){
+            margin-left: 95vw;
+            margin-top: -95vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 15s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(32){
+            margin-left: 30vw;
+            margin-top: -45vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 16s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(33){
+            margin-left: 30vw;
+            margin-top: -30vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 40s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(34){
+            margin-left: 20vw;
+            margin-top: -25vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 17s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(35){
+            margin-left: 60vw;
+            margin-top: -100vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 18s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(36){
+            margin-left: 15vw;
+            margin-top: -85vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 19s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(37){
+            margin-left: -5vw;
+            margin-top: -65vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 20s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(38){
+            margin-left: 15vw;
+            margin-top: -85vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 21s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(39){
+            margin-left: 0vw;
+            margin-top: -110vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 22s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(40){
+            margin-left: 15vw;
+            margin-top: -110vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 23s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(41){
+            margin-left: 75vw;
+            margin-top: -120vh;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-delay: 23s;
+            animation-timing-function: ease-in;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+        .CC :nth-child(42){
+            margin-left: 55vw;
+            margin-top: -122vh;
+        }
+        .CC :nth-child(43){
+            margin-left: 95vw;
+            margin-top: -95vh;
+        }
+        .CC :nth-child(44){
+            margin-left: 70vw;
+            margin-top: -98vh;
+        }
+        .CC :nth-child(45){
+            margin-left: 80vw;
+            margin-top: -50vh;
+            animation-delay: 24s;
+        }
+        .CC :nth-child(46){
+            margin-left: 5vw;
+            margin-top: -10vh;
+            animation-delay: 25s;
+        }
+        .CC :nth-child(47){
+            margin-left: 15vw;
+            margin-top: -15vh;
+            animation-delay: 26s;
+        }
+        .CC :nth-child(48){
+            margin-left: 20vw;
+            margin-top: -45vh;
+            animation-delay: 27s;
+        }
+        .CC :nth-child(49){
+            margin-left: 75vw;
+            margin-top: -15vh;
+            animation-delay: 28s;
+        }
+        .CC :nth-child(50){
+            margin-left: 55vw;
+            margin-top: -90vh;
+            animation-delay: 29s;
+        }
+        .CC :nth-child(51){
+            margin-left: 15vw;
+            margin-top: -85vh;
+            animation-delay: 30s;
+        }
+        .CC :nth-child(52){
+            margin-left: 40vw;
+            margin-top: -120vh;
+            animation-delay: 31s;
+        }
+        .CC :nth-child(53){
+            margin-left: 40vw;
+            margin-top: -120vh;
+            animation-delay: 31s;
+        }
+        .CC :nth-child(54){
+            margin-left: 20vw;
+            margin-top: -25vh;
+            animation-delay: 32s;
+        }
+        .CC :nth-child(55){
+            margin-left: 20vw;
+            animation-delay: 33s;
+        }
+        .CC :nth-child(56){
+            margin-left: 20vw;
+            margin-top: -125vh;
+            animation-delay: 33s;
+        }
+        .CC :nth-child(57){
+            margin-left: 35vw;
+            margin-top: -35vh;
+            animation-delay: 48s;
+        }
+        .CC :nth-child(58){
+            margin-left: 35vw;
+            margin-top: -135vh;
+            animation-delay: 34s;
+        }
+        .CC :nth-child(59){
+            margin-left: 85vw;
+            margin-top: -100vh;
+            animation-delay: 40s;
+        }
+        .CC :nth-child(60){
+            margin-left: 45vw;
+            margin-top: -60vh;
+            animation-delay: 41s;
+        }
+        .CC :nth-child(61){
+            margin-left: 42vw;
+            margin-top: -58vh;
+            animation-delay: 42s;
+        }
+        .CC :nth-child(62){
+            margin-left: 40vw;
+            margin-top: -56vh;
+            animation-delay: 43s;
+        }
+        .CC :nth-child(63){
+            margin-left: 35vw;
+            margin-top: -70vh;
+            animation-delay: 44s;
+        }
+        .CC :nth-child(64){
+            margin-left: -5vw;
+            margin-top: -10vh;
+            animation-delay: 45s;
+        }
+
+
+
+@keyframes one {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 30%;
+    }
+}
+
+a {
+    /* position: absolute;  */
+    z-index: 4;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: #e5d9ad;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 30px;
+    font-weight: 600;
+    word-spacing: 100%;
+    filter: blur(2px);
+    animation-name: reset;
+    animation-duration: 3s;
+    animation-delay: 25s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    opacity: 0%;
+}
+
+@keyframes reset {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+div.CC>* {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    opacity: 0%;
+    filter: blur(10px);
+    border-radius: 50%;
+    animation-name: one;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+}
+
+@media screen and (max-width: 500px) {
+
+    div.CC>* {
+        background-color: black;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        opacity: 0%;
+        filter: blur(10px);
+        border-radius: 50%;
+        animation-name: one;
+        animation-duration: 2s;
+        animation-timing-function: ease-in;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+    }
+    
+    }
