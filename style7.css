@@ -23,7 +23,7 @@ body {
     position: absolute;
     height: 250px;
     width: 250px;
-    background-color: #80785C;
+    background-color: #f0e9c4;
     opacity: 75%;
     filter: blur(40px);
     border-radius: 50%;
@@ -37,6 +37,7 @@ body {
     background-color: black;
     filter: blur(10px);
     /* position: absolute; */
+    margin-top: -200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -49,7 +50,7 @@ body {
 }
 
 .next {
-    background-color: #80785C;
+    background-color: #f0e9c4;
 }
 
 }

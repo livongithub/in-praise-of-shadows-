@@ -21,7 +21,7 @@ body {
     position: absolute;
     height: 60px;
     width: 60px;
-    background-color: #80785C;
+    background-color: #f0e9c4;
     opacity: 100%;
     filter: blur(30px);
     border-radius: 50%;
@@ -37,6 +37,7 @@ body {
     /* position: absolute; */
     margin-left: auto;
     margin-right: auto;
+    margin-top: -100px;
 }
 
 @media screen and (max-width: 450px) {
@@ -46,7 +47,7 @@ body {
     }
     
     .next {
-        background-color: #80785C;
+        background-color: #f0e9c4;
     }
     
     }

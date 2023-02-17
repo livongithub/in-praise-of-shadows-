@@ -21,7 +21,7 @@ body {
     position: absolute;
     height: 200px;
     width: 200px;
-    background-color: #80785C;
+    background-color: #f0e9c4;
     opacity: 75%;
     filter: blur(40px);
     border-radius: 50%;
@@ -46,7 +46,7 @@ body {
     }
     
     .next {
-        background-color: #80785C;
+        background-color: #f0e9c4;
     }
     
     }

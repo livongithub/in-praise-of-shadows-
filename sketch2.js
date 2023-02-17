@@ -5,6 +5,13 @@ document.addEventListener('mousemove', (e) => {
 }
 )
 
+const cursor1 = document.querySelector('.cursor1');
+document.addEventListener('mousemove', (e) => {
+    cursor.style.left = e.pageX + 'px';
+    cursor.style.top = e.pageY + 'px';
+}
+)
+
 
 function fadeOut() {
     const fade = document.getElementById('shadow');

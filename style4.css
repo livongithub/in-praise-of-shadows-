@@ -1,7 +1,7 @@
 
 
 body{
-    background: #80785C;
+    background: #f0e9c4;
     filter: blur(40%);
     background-image: url("img/background.jpeg");
     /* overflow: hidden; */
@@ -11,7 +11,7 @@ body{
     position: absolute;
     width: 110%;
     height: 180%;
-    background-color: #80785C;
+    background-color: #f0e9c4;
     opacity: 75%;
     margin-left: -10px;
     margin-top: -25px;
@@ -54,7 +54,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
    opacity: 60%;
-
+margin-top: -50px;
 }
 
 /* .animationClick {
@@ -104,7 +104,7 @@ h1 {
         position: absolute;
         width: 110%;
         height: 240%;
-        background-color: #80785C;
+        background-color: #f0e9c4;
         opacity: 75%;
         margin-left: -10px;
         margin-top: -25px;
