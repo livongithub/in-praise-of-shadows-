@@ -2,7 +2,7 @@
 font-family: 'Poppins', sans-serif; */
 
 body{
-    background: #80785C;
+    background: red ;
     overflow: hidden;
     filter: blur(40%);
     background-image: url("img/background.jpeg");
