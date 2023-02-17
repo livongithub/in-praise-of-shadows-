@@ -36,15 +36,23 @@ h1 {
     z-index: 2;
 }
 
-.cursor {
+div.cursors div {
     position: absolute;
-    height: 200px;
+    top: 300px;
+    left: 300px;
     width: 200px;
+    height: 200px;
     background-color: black;
-    opacity: 75%;
+    opacity: 25%;
     filter: blur(20px);
     border-radius: 50%;
+    z-index: 4;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
 }
+
+
+
 
 /* .cursor1 {
     position: absolute;
