@@ -150,9 +150,9 @@ h4 {
 
 
         body{
-            width: 428px;
+            /* width: 428px; */
             background: #80785C;
-            /* overflow: hidden; */
+            overflow: scroll;
             filter: blur(40%);
             /* background-image: url("img/background.jpeg"); */
             overflow: hidden;
