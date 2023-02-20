@@ -21,11 +21,11 @@ a {
         background-color: 80785C;
     }
     100% {
-        background-color: #d0bd78 ;
+        background-color: #e4d99d ;
     }
 }
 
-.fullBody {
+/* .fullBody {
     z-index: -2;
     position: absolute;
     width: 120vw;
@@ -34,19 +34,19 @@ a {
     opacity: 75%;
     margin-left: -10px;
     margin-top: -25%;
-}
+} */
 
 .text{
     color: black;
     font-family: 'Poppins', sans-serif;
     text-align: justify;
     /* font-weight: bold; */
-    font-weight: 300;
+    font-weight: 400;
     font-size: 15px;
     line-height: 28px;
     padding: 45px;
     margin-top: -70px;
-
+    filter: blur(0.6px);
     display: flex;
     flex-direction: column;
     /* gap: 3rem; */
@@ -64,32 +64,28 @@ a {
 
         .rectangleVertical1{
             width: 40px;
-            height: 170vh; 
+            height: 180vh; 
             background-color: black;
             margin-top: -200px;
-            filter: blur(7px);
+            filter: blur(10px);
+            opacity: 80%;
             /* opacity: 75%; */
         }
-
         .rectangleVertical2{
             width: 40px;
-            height: 170vh; 
+            height: 180vh; 
             background-color: black;
             margin-top: -200px;
-            filter: blur(7px);
+            filter: blur(10px);
+              opacity: 80%;
             /* opacity: 75%; */
         }
-
         .rectangleVertical3{
             display: none;
         }
-
         .rectangleVertical4{
             display: none;
         }
-
-
-
 
 
 .part1 {
@@ -113,19 +109,21 @@ a {
 
 .part5 {
     margin-bottom: 30px;
+    font-weight: 600;
 }
 
 .thirdchild {
     position: absolute;
     margin-top: 50px;
-    margin-left: 40vw;
+    margin-left: 35vw;
     text-decoration: none;
     color: black;
     font-weight: 400;
     font-size: 20px;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.5em;
     opacity: 97%;
-    filter: blur(1px);
+    filter: blur(1.5px);
+    margin-bottom: none;
 }
 
  .part1::before {
@@ -137,7 +135,8 @@ a {
     background-color: black;
     margin-left: -25px;
     margin: -10px;
-    filter: blur(4px);
+    filter: blur(10px);
+      opacity: 80%;
     /* opacity: 75%; */
     margin-top: -10px;
     margin-bottom: 510px;
@@ -153,7 +152,8 @@ a {
     background-color: black;
     margin-left: -25px;
     margin: -10px;
-    filter: blur(4px);
+    filter: blur(10px);
+      opacity: 80%;
     /* opacity: 75%; */
     margin-left: -50px;
   }
@@ -167,7 +167,8 @@ a {
     background-color: black;
     margin-left: -25px;
     margin: -10px;
-    filter: blur(4px);
+    filter: blur(10px);
+      opacity: 80%;
     /* opacity: 75%; */
     margin-left: -50px;
   }
@@ -181,8 +182,9 @@ a {
     background-color: black;
     margin-left: -25px;
     margin: -10px;
-    filter: blur(4px);
+    filter: blur(10px);
     /* opacity: 75%; */
+      opacity: 80%;
     margin-left: -50px;
   }
 
@@ -195,7 +197,8 @@ a {
     background-color: black;
     margin-left: -25px;
     margin: -10px;
-    filter: blur(4px);
+    filter: blur(10px);
+      opacity: 80%;
     /* opacity: 75%; */
     margin-left: -50px;
   }
@@ -209,7 +212,8 @@ a {
     background-color: black;
     margin-left: -25px;
     margin: -10px;
-    filter: blur(4px);
+    filter: blur(10px);
+      opacity: 80%;
     /* opacity: 75%; */
     margin-left: -50px;
   }
@@ -234,7 +238,7 @@ a {
         color: black;
         font-family: 'Poppins', sans-serif;
         text-align: justify;
-        font-weight: 300;
+        font-weight: 00;
         font-size: 15px;
         line-height: 28px;
         padding: 75px;
@@ -316,10 +320,11 @@ a {
     border: 30px solid black;
     height: 115%;
     filter: blur(4px);
+    opacity: 75%;
 }
 .part1 {
     padding: 25px;
-    margin-left: 40px;
+    margin-left: 20px;
     margin-top: 20px;
 }
 
@@ -336,7 +341,7 @@ a {
     width: 100%;
     border: 30px solid black;
     height: 115%;
-    filter: blur(4px);
+    filter: blur(10px);
 }
 .part2 {
     margin-top: 85px;
@@ -356,12 +361,12 @@ a {
     width: 100%;
     border: 30px solid black;
     height: 115%;
-    filter: blur(4px);
+    filter: blur(10px);
 }
 .part3 {
     margin-top: 130px;
     padding: 25px;
-    margin-left: 35px;
+    margin-left: 25px;
 }
 
 .middle {
@@ -392,11 +397,12 @@ a {
     width: 110%;
     border: 30px solid black;
     height: 115%;
-    filter: blur(4px);
+    filter: blur(10px);
 }
 .part4 {
     margin-top: 22px;
     padding: 15px;
+    margin-right: -15px;
 }
 
 .box5 {
@@ -408,11 +414,13 @@ a {
     width: 110%;
     border: 30px solid black;
     height: 115%;
-    filter: blur(4px);
+    filter: blur(10px);
 }
 .part5 {
     padding: 25px;
     margin-top: 65px;
+    margin-right: -20px;
+    font-weight: 600;
 }
 
 .box6 {
@@ -424,7 +432,7 @@ a {
     width: 110%;
     border: 30px solid black;
     height: 115%;
-    filter: blur(4px);
+    filter: blur(10px);
 }
 
 .thirdchild {
@@ -434,7 +442,7 @@ a {
     text-decoration: none;
     font-weight: 400;
     font-size: 20px;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.5em;
     opacity: 97%;
     filter: blur(1px);
     /* text-decoration: underline; */
@@ -637,29 +645,34 @@ a {
     width: 90%;
     height: 32.5vh;
     margin-top: 72.5vh;
+    filter: blur(10px);
     /* padding: 25px; */
     /* margin-left: 5vw; */
 }
 .box8 {
     width: 90%;
     height: 32.5vh;
+     filter: blur(10px);
     /* margin-left: 5vw; */
 }
 .box9 {
     width: 90%;
     height: 32.5vh;
     margin-top: 38.5vh;
+     filter: blur(10px);
     /* margin-left: 5vw; */
 }
 
 .part1 {
-    padding: 10px;
+    padding: 15px;
+    margin-left: 25px;
 }
 .part2 {
     padding: 5px;
 }
 .part3 {
     padding: 10px;
+    margin-left: 30px;
 }
 .part4 {
     padding: 25px;
@@ -671,6 +684,7 @@ a {
     padding: 25px;
     margin-right: -45px;
     margin-left: 15px;
+    font-weight: 600;
 }
 
 .thirdchild {
