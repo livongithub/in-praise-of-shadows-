@@ -1,3 +1,8 @@
+html {
+    margin-left: -5px;
+}
+
+
 body{
     background: #f0e9c4;
     /* overflow: hidden; */

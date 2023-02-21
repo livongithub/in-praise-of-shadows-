@@ -157,7 +157,7 @@ h4 {
             overflow: scroll;
             filter: blur(40%);
             /* background-image: url("img/background.jpeg"); */
-            overflow: hidden;
+            overflow: scroll;
         }
 
         .fullBody {
