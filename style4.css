@@ -131,9 +131,9 @@ margin-top: -50px;
     h1 {
         /* styling */
         color: black;
-        font-family: 'Playfair Display', serif;
+        font-family: 'Poppins', sans-serif; 
         text-align: left;
-        font-weight: 300;
+        font-weight: 400;
         font-size: 19px;
         line-height: 30px;
         filter: blur(.5);

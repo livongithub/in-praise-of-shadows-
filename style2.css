@@ -140,9 +140,10 @@ div.cursors div {
     h1 {
         /* styling */
         color: black;
-        font-family: 'Playfair Display', serif;
+        font-family: 'Poppins', sans-serif; 
+
         text-align: left;
-        font-weight: 300;
+        font-weight: 400;
         font-size: 19px;
         line-height: 30px;
     
@@ -154,100 +155,6 @@ div.cursors div {
         z-index: 2;
     }
 
-    div.CC>* {
-        background-color: black;
-        width: 250px;
-        height: 250px;
-        position: absolute;
-        opacity: 0%;
-        filter: blur(10px);
-        border-radius: 50%;
-        animation-name: one;
-        animation-duration: 2s;
-        animation-timing-function: ease-in;
-        animation-direction: normal;
-        animation-fill-mode: forwards;
-    }
-
-    .CC :nth-child(1){
-        margin-left: 5vw;
-        margin-top: -40vh;
-        animation-name: one;
-        animation-duration: 2s;
-        animation-delay: none;
-        animation-timing-function: ease-in;
-        animation-direction: normal;
-        animation-fill-mode: forwards;
-    }
-    .CC :nth-child(2){
-        margin-left: 75vw;
-        margin-top: -15vh;
-        animation-name: one;
-        animation-duration: 2s;
-        animation-delay: none;
-        animation-timing-function: ease-in;
-        animation-direction: normal;
-        animation-fill-mode: forwards;
-    }
-    .CC :nth-child(3){
-        margin-left: 15vw;
-        margin-top: -85vh;
-        animation-name: one;
-        animation-duration: 2s;
-        animation-delay: 1s;
-        animation-timing-function: ease-in;
-        animation-direction: normal;
-        animation-fill-mode: forwards;
-    }
-    .CC :nth-child(4){
-        margin-left: 95vw;
-        margin-top: -95vh;
-        animation-name: one;
-        animation-duration: 2s;
-        animation-delay: 1.5s;
-        animation-timing-function: ease-in;
-        animation-direction: normal;
-        animation-fill-mode: forwards;
-    }
-    .CC :nth-child(5){
-        margin-left: 70vw;
-        margin-top: -45vh;
-        animation-name: one;
-        animation-duration: 2s;
-        animation-delay: 2s;
-        animation-timing-function: ease-in;
-        animation-direction: normal;
-        animation-fill-mode: forwards;
-    }
-    .CC :nth-child(6){
-        margin-left: 5vw;
-        margin-top: -95vh;
-        animation-name: one;
-        animation-duration: 2s;
-        animation-delay: 2.5s;
-        animation-timing-function: ease-in;
-        animation-direction: normal;
-        animation-fill-mode: forwards;
-    }
-    .CC :nth-child(7){
-        margin-left: 60vw;
-        margin-top: -95vh;
-        animation-name: one;
-        animation-duration: 2s;
-        animation-delay: 2.5s;
-        animation-timing-function: ease-in;
-        animation-direction: normal;
-        animation-fill-mode: forwards;
-    }
-
-    @keyframes one {
-        0% {
-            opacity: 0%;
-        }
-        100% {
-            opacity: 30%;
-        }
-    }
 
     .next {
         margin-top: 30px;
